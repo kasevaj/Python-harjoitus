@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module bussikuskipeli</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>bussikuskipeli</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cjasmi%5Cdownloads%5Cbussikuskipeli.py">c:\users\jasmi\downloads\bussikuskipeli.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top><a href="random.html">random</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-aloitaPeli"><strong>aloitaPeli</strong></a>(pelaajat, korttipakka)</dt><dd><tt>Aloittaa&nbsp;pelin&nbsp;suorittamisen&nbsp;käyttäen&nbsp;eri&nbsp;kierroksia&nbsp;pelaajien&nbsp;ja&nbsp;korttipakan&nbsp;kanssa.</tt></dd></dl>
+ <dl><dt><a name="-ensimmainen_kierros"><strong>ensimmainen_kierros</strong></a>(pelaajat, korttipakka)</dt><dd><tt>Ensimmäinen&nbsp;pelikierros,&nbsp;jossa&nbsp;pelaajat&nbsp;arvaavat&nbsp;korttien&nbsp;värejä.<br>
+&nbsp;<br>
+Parametrit:&nbsp;pelaajat&nbsp;sanakirja&nbsp;ja&nbsp;korttipakka&nbsp;lista<br>
+Ei&nbsp;palauta&nbsp;muuta&nbsp;kuin&nbsp;kierroksen&nbsp;päätösviestin</tt></dd></dl>
+ <dl><dt><a name="-kolmas_kierros"><strong>kolmas_kierros</strong></a>(pelaajat, korttipakka)</dt><dd><tt>Kolmas&nbsp;pelikierros,&nbsp;jossa&nbsp;pelaajat&nbsp;arvaavat&nbsp;korttien&nbsp;maita<br>
+&nbsp;<br>
+Parametrit:&nbsp;pelaajat&nbsp;sanakirja&nbsp;ja&nbsp;korttipakka&nbsp;lista<br>
+Ei&nbsp;palauta&nbsp;muuta&nbsp;kuin&nbsp;kierroksen&nbsp;päätösviestin</tt></dd></dl>
+ <dl><dt><a name="-lisaaPelaajat"><strong>lisaaPelaajat</strong></a>()</dt><dd><tt>Funktio&nbsp;lisää&nbsp;pelaajia&nbsp;peliin&nbsp;käyttäjän&nbsp;syötteen&nbsp;perusteella.<br>
+Pelaaja&nbsp;tallennetaan&nbsp;sanakirjaan&nbsp;ja&nbsp;pelaajan&nbsp;tiedoissa&nbsp;on&nbsp;nimi,&nbsp;kortit&nbsp;ja&nbsp;sakot.</tt></dd></dl>
+ <dl><dt><a name="-lue_peli_lkm"><strong>lue_peli_lkm</strong></a>()</dt><dd><tt>Lukee&nbsp;pelien&nbsp;lukumäärän&nbsp;tiedostosta&nbsp;ja&nbsp;palauttaa&nbsp;sen&nbsp;sekä&nbsp;tiedoston&nbsp;sisällön.<br>
+Funktio&nbsp;palauttaa&nbsp;tuplen:&nbsp;(peli_lkm&nbsp;(int),&nbsp;sisalto&nbsp;(str))</tt></dd></dl>
+ <dl><dt><a name="-luoKorttipakka"><strong>luoKorttipakka</strong></a>()</dt><dd><tt>Funktio&nbsp;luo&nbsp;korttipakan,&nbsp;jossa&nbsp;on&nbsp;52&nbsp;korttia&nbsp;ja&nbsp;4&nbsp;eri&nbsp;maata&nbsp;numeorilla&nbsp;1-13.</tt></dd></dl>
+ <dl><dt><a name="-main"><strong>main</strong></a>()</dt><dd><tt>Tämä&nbsp;on&nbsp;pääfunktio,&nbsp;joka&nbsp;ohjaa&nbsp;pelin&nbsp;etenemistä&nbsp;ja&nbsp;tulostaa&nbsp;pelin&nbsp;päätyttyä&nbsp;kiitosviestin.&nbsp;Funktio&nbsp;ei&nbsp;palauta&nbsp;mitään</tt></dd></dl>
+ <dl><dt><a name="-neljas_kierros"><strong>neljas_kierros</strong></a>(pelaajat, korttipakka)</dt><dd><tt>Neljäs&nbsp;pelikierros,&nbsp;jossa&nbsp;jaetaan&nbsp;bonushörppyjä.<br>
+&nbsp;<br>
+Parametrit:&nbsp;pelaajat&nbsp;sanakirja&nbsp;ja&nbsp;korttipakka&nbsp;lista<br>
+Ei&nbsp;palauta&nbsp;muuta&nbsp;kuin&nbsp;kierroksen&nbsp;päätösviestin</tt></dd></dl>
+ <dl><dt><a name="-pelitilanne"><strong>pelitilanne</strong></a>(pelaajat)</dt><dd><tt>Pelitilanne&nbsp;tulostaa&nbsp;pelaajille&nbsp;tietoa,&nbsp;että&nbsp;mitä&nbsp;kortteja&nbsp;heille&nbsp;on&nbsp;jaettu&nbsp;ja&nbsp;montako&nbsp;sakko&nbsp;on&nbsp;tullut.</tt></dd></dl>
+ <dl><dt><a name="-seuraava_kierros"><strong>seuraava_kierros</strong></a>()</dt><dd><tt>Tätä&nbsp;käytetään&nbsp;vain&nbsp;siihen&nbsp;että&nbsp;voi&nbsp;hieman&nbsp;vaikuttaa&nbsp;pelin&nbsp;tulosteiden&nbsp;tahtiin.&nbsp;muuten&nbsp;on&nbsp;vaikea&nbsp;pysyä&nbsp;mukana&nbsp;imo.</tt></dd></dl>
+ <dl><dt><a name="-tallenna_peli_lkm"><strong>tallenna_peli_lkm</strong></a>(pelit_lkm)</dt><dd><tt>Tallentaa&nbsp;pelien&nbsp;lukumäärän&nbsp;tiedostoon&nbsp;ja&nbsp;tulostaa&nbsp;onnistuneen&nbsp;tallennuksen&nbsp;viestin.<br>
+Funktion&nbsp;parametrin&nbsp;on&nbsp;uusien&nbsp;pelin&nbsp;lukumäärä,&nbsp;eikä&nbsp;funktio&nbsp;palauta&nbsp;mitään.</tt></dd></dl>
+ <dl><dt><a name="-toinen_kierros"><strong>toinen_kierros</strong></a>(pelaajat, korttipakka)</dt><dd><tt>Toinen&nbsp;pelikierros,&nbsp;jossa&nbsp;pelaajat&nbsp;arvaavat&nbsp;onko&nbsp;kortti&nbsp;suurempi&nbsp;vai&nbsp;pienempi&nbsp;kuin<br>
+ensimmöisen&nbsp;kierroksen&nbsp;kortti.<br>
+&nbsp;<br>
+Parametrit:&nbsp;pelaajat&nbsp;sanakirja&nbsp;ja&nbsp;korttipakka&nbsp;lista<br>
+Ei&nbsp;palauta&nbsp;muuta&nbsp;kuin&nbsp;kierroksen&nbsp;päätösviestin</tt></dd></dl>
+ <dl><dt><a name="-vertaa_kortteja"><strong>vertaa_kortteja</strong></a>(edellinen_kortti, uusi_kortti)</dt><dd><tt>Funktion&nbsp;parametreinä&nbsp;on&nbsp;pelaajalle&nbsp;ensimmäisellä&nbsp;ja&nbsp;toisella&nbsp;kierroksella&nbsp;jaetut&nbsp;kortit.&nbsp;Funktio&nbsp;vertailee&nbsp;numeroiden&nbsp;suuruutta<br>
+ja&nbsp;palauttaa&nbsp;luvun&nbsp;vertailun&nbsp;perusteella.</tt></dd></dl>
+</td></tr></table>
+</body></html>
